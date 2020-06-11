@@ -1,10 +1,15 @@
 <template>
   <div>
-<!--     <span>我在所有页面上面哦</span>-->
-    <nuxt/>
+    <span>我是二级路由index</span>
+    <nuxt-link to="/">首页</nuxt-link>
   </div>
 </template>
 
+<script>
+  export default {
+    layout: 'demo2'
+  };
+</script>
 <style>
   html {
     font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

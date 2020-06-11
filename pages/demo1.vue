@@ -1,6 +1,7 @@
 <template>
   <div>
     <span>我是demo1</span>
+    <nuxt-link to="/">首页</nuxt-link>
   </div>
 </template>
 
